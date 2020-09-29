@@ -1,12 +1,8 @@
 {
 	"Actor": {
-		"types": [
-			"character",
-			"vehicle"
-		],
+		"types": ["character", "vehicle"],
 		"character": {
 			"injuries": {},
-			"notes": "",
 			"bioStrength": "",
 			"bioFlaw": "",
 			"bioDesire": "",
@@ -15,6 +11,8 @@
 			"experience": 0,
 			"totalExperience": 0,
 			"money": 0,
+			"currentEncumbrance": 0,
+			"maxEncumbrance": 0,
 			"basic": {
 				"charname": "",
 				"speciesArchtype": "",
@@ -158,6 +156,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"mechanics": {
@@ -212,6 +211,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"resilience": {
@@ -233,6 +233,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"skulduggery": {
@@ -254,6 +255,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"streetwise": {
@@ -341,6 +343,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"melee": {
@@ -384,6 +387,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"ranged-heavy": {
@@ -394,6 +398,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"ranged-light": {
@@ -404,6 +409,7 @@
 					"setting": false,
 					"career": false,
 					"modifier": [],
+					"longCharacteristic": "agility",
 					"characteristic": "ag"
 				},
 				"charm": {
@@ -634,13 +640,7 @@
 		}
 	},
 	"Item": {
-		"types": [
-			"armor",
-			"gear",
-			"injury",
-			"talent",
-			"weapon"
-		],
+		"types": ["armor", "gear", "injury", "note", "talent", "weapon"],
 		"weapon": {
 			"Name": "item",
 			"skill": "",
@@ -679,6 +679,10 @@
 		"injury": {
 			"name": "",
 			"severity": 0,
+			"description": ""
+		},
+		"note": {
+			"name": "",
 			"description": ""
 		}
 	}
