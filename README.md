@@ -11,4 +11,4 @@ Initiative has to be manually added to the combattracker.
 Check  the branches for the newest release.
 
 Paste this link when foundry requests a manifest:
-https://raw.githubusercontent.com/ceedd/Genesys-for-FoundryVTT/release-v0.2/system.json
+https://raw.githubusercontent.com/sparky939/Genesys-for-FoundryVTT/release-v0.2/system.json
