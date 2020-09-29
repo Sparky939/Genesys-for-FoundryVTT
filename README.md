@@ -8,7 +8,7 @@ To use this System you have to download and enable the Special Dice Roller modul
 
 Initiative has to be manually added to the combattracker.
 
-Check  the branches for the newest release.
+This is just an updated version I made with a couple of fixes to the character sheet.
 
 Paste this link when foundry requests a manifest:
 https://raw.githubusercontent.com/sparky939/Genesys-for-FoundryVTT/release-v0.2/system.json
